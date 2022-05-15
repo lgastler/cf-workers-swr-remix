@@ -1,0 +1,10 @@
+name = "cf-workers-swr-remix-example"
+main="server.js"
+workers_dev = true
+compatibility_date = "2022-04-05"
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"
